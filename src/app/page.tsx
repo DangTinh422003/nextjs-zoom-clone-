@@ -1,3 +1,5 @@
+import CreateMeetingPage from "@/providers/CreateMeetingPage";
+
 export default function Home() {
-  return <></>;
+  return <CreateMeetingPage></CreateMeetingPage>;
 }

@@ -10,7 +10,7 @@ const ClientProvider = ({ children }: PropsWithChildren) => {
   if (!videoClient) {
     return (
       <div className="flex h-screen items-center justify-center">
-        <Loader2 className="mx-auto animate-spin "></Loader2>{" "}
+        <Loader2 className="mx-auto animate-spin"></Loader2>{" "}
       </div>
     );
   }
